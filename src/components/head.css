@@ -19,3 +19,9 @@
 .health {
     color:rgb(146, 223, 170)
 }
+
+.footerdesc {
+    font-size: 10px;
+    color:rgb(121, 180, 183);
+    margin-top: -10px;
+}
