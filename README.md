@@ -1,71 +1,80 @@
-# Getting Started with Create React App
+# sheBot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A friendly & intelligent healthcare assistant for women
 
-## Available Scripts
 
-In the project directory, you can run:
+## Run Locally
 
-### `npm start`
+Clone the project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+  git clone https://github.com/Surya742/Chatbot-For-Women
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Go to the project directory
 
-### `npm test`
+```bash
+  cd Chatbot-For-Women
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install dependencies
 
-### `npm run build`
+```bash
+  npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open it in the browser
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Problem Statement
 
-### `npm run eject`
+```http
+  “Healthcare accessibility isn’t a privilege to women
+             - it is a basic need and should be a priority”
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Nowadays women are at par with men in all spheres of life, they are working as
+successful doctors, engineers, professionals, entrepreneurs etc. Women do not feel free
+to talk about their health. In some cases it becomes life-threatening. Talking about
+women related health issues is still a big taboo in most parts of India.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For that, I am introducing an online friendly & intelligent healthcare assistant for women (sheBot). `It is smart enough to know all about the women health and health issues`. It also holds the potential to suggest correct `medication suggestions` and `home remedies` if required. Any woman can use it without any fear of getting judged.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`I respect data privacy, hence no data related to users or their queries is getting stored, so feel free to use it without any hesitation.`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Even you can make sheBot your best friend and talk about anything you want to reduce your mental stress. 
+## App Screenshots
 
-## Learn More
+![App Screenshot 1](./src/assests/sheBot-1.png)
+![App Screenshot 2](./src/assests/sheBot-2.png)
+![App Screenshot 3](./src/assests/sheBot-3.png)
+![App Screenshot 4](./src/assests/sheBot-4.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
+`HTML`
+`CSS`
+`JavaScript`
+`React.js`
+`OpenAI`
+`GPT3`
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Environment Variables
 
-### Making a Progressive Web App
+To run this project, you will need to add the following environment variables to your .env file
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+`OPENAI_API_KEY`
 
-### Advanced Configuration
+Collect it from [here](https://openai.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Release Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Chatbot-For-Women
+#### 1.0.0
+Initial release

@@ -1,0 +1,21 @@
+.heading {
+    color: rgb(207, 8, 180);
+    font-size: 80px;
+    margin-top: -20px;
+}
+
+.headdesc {
+    font-size: 20px;
+    margin-top: -60px;
+    color: rgb(98, 185, 187);
+    margin-bottom: 50px;
+}
+
+.footer-headdesc {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.health {
+    color:rgb(146, 223, 170)
+}
